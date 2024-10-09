@@ -1,0 +1,39 @@
+{
+  "name": "liruifengv-ui",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "一个React组件库",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "ui"
+  ],
+  "author": "liruifengv",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.11",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.8",
+    "vite-plugin-dts": "^4.2.3"
+  }
+}
